@@ -1,6 +1,6 @@
 # Multi-Product Inventory Optimization with Reinforcement Learning
 
-This project applies Proximal Policy Optimization (PPO) to a multi-product inventory management problem.
+This project applies Reinforcement Learning (RL) to solve a classical inventory management problem. This applies Proximal Policy Optimization (PPO) to a multi-product inventory management problem.
 The agent learns optimal ordering strategies for 3 products under uncertain and seasonal demand with delivery delays (lead time).
 
 
@@ -44,17 +44,17 @@ pip install -r requirements.txt
 ## How to Run
 
 1. Train the PPO Agent
-   python train\_ppo\_multi.py
+   python train_ppo_multi.py
 2. Compare PPO vs Rule-Based Policy
-   python compare\_policies\_multi.py
+   python compare_policies_multi.py
 3. Plot Training Rewards
-   python plot\_rewards\_multi.py
+   python plot_rewards_multi.py
 
 ---
 
 ## Repository
 
-- inventory\_env\_multi.py: Custom multi-product environment
-- train\_ppo\_multi.py: PPO agent training script
-- compare\_policies\_multi.py: Evaluation of PPO vs rule-based policy
-- plot\_rewards\_multi.py: Visualization of reward curves
+- inventory_env_multi.py: Custom multi-product environment
+- train_ppo_multi.py: PPO agent training script
+- compare_policies_multi.py: Evaluation of PPO vs rule-based policy
+- plot_rewards_multi.py: Visualization of reward curves
