@@ -36,19 +36,19 @@ The agent learns optimal ordering strategies for 3 products under uncertain and 
 - matplotlib
 
 **Install all dependencies**:
-```bash
-pip install -r requirements.txt
+bash
+  pip install -r requirements.txt
 
 ---
 
 ## How to Run
 
 1. Train the PPO Agent
-   python train_ppo_multi.py
+  python train_ppo_multi.py
 2. Compare PPO vs Rule-Based Policy
-   python compare_policies_multi.py
+  python compare_policies_multi.py
 3. Plot Training Rewards
-   python plot_rewards_multi.py
+  python plot_rewards_multi.py
 
 ---
 
